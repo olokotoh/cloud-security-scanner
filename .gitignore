@@ -1,0 +1,17 @@
+# Vulnerable .gitignore configuration
+# WARNING: This file intentionally fails to ignore sensitive files
+
+# Python
+__pycache__/
+*.pyc
+
+# VULNERABILITY: Not ignoring sensitive files:
+# .env
+# *.pem
+# *.key
+# secrets/
+# terraform.tfstate
+# terraform.tfstate.backup
+# *.tfvars
+# .credentials
+# users.db

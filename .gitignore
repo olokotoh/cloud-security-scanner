@@ -6,12 +6,12 @@ __pycache__/
 *.pyc
 
 # VULNERABILITY: Not ignoring sensitive files:
-# .env
-# *.pem
-# *.key
-# secrets/
-# terraform.tfstate
-# terraform.tfstate.backup
-# *.tfvars
-# .credentials
-# users.db
+.env
+*.pem
+*.key
+secrets/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.credentials
+users.db

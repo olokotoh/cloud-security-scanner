@@ -1,69 +1,69 @@
 # Python
-  __pycache__/
-  *.py[cod]
-  *$py.class
-  *.so
-  .Python
-  build/
-  develop-eggs/
-  dist/
-  downloads/
-  eggs/
-  .eggs/
-  lib/
-  lib64/
-  parts/
-  sdist/
-  var/
-  wheels/
-  *.egg-info/
-  .installed.cfg
-  *.egg
-  .pytest_cache/
-  .coverage
-  htmlcov/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
 
-  # Environment variables
-  .env
-  .env.local
-  .env.*.local
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-  # Secrets
-  *.pem
-  *.key
-  *.p12
-  *.pfx
-  secrets/
-  .credentials
-  *.crt
+# Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.credentials
+*.crt
 
-  # Terraform
-  .terraform/
-  terraform.tfstate
-  terraform.tfstate.backup
-  *.tfvars
-  .terraform.lock.hcl
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
 
-  # AWS
-  .aws/
+# AWS
+.aws/
 
-  # Database
-  *.db
-  *.sqlite
-  *.sqlite3
-  users.db
+# Database
+*.db
+*.sqlite
+*.sqlite3
+users.db
 
-  # IDE
-  .vscode/
-  .idea/
-  *.swp
-  *.swo
-  *~
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-  # Security reports
-  security-reports/*.json
-  security-reports/*.txt
-  .secrets.baseline
+# Security reports
+security-reports/*.json
+security-reports/*.txt
+.secrets.baseline
 
-  # Logs
-  *.log
+# Logs
+*.log

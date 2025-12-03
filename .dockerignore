@@ -1,41 +1,42 @@
+#git
 .git
-  .gitignore
-  .gitattributes
+.gitignore
+.gitattributes
 
-  # CI/CD
-  .github/
+# CI/CD
+.github/
 
-  # Documentation
-  *.md
-  README.md
-  LICENSE
+# Documentation
+*.md
+README.md
+LICENSE
 
-  # Development
-  .env
-  .env.*
-  *.pem
-  *.key
-  secrets/
+# Development
+.env
+.env.*
+*.pem
+*.key
+secrets/
 
-  # Terraform
-  terraform/
-  *.tf
-  *.tfvars
-  *.tfstate
+# Terraform
+terraform/
+*.tf
+*.tfvars
+*.tfstate
 
-  # Tests
-  tests/
-  __pycache__/
-  *.pyc
+# Tests
+tests/
+__pycache__/
+*.pyc
 
-  # Security
-  security-reports/
-  .secrets.baseline
+# Security
+security-reports/
+.secrets.baseline
 
-  # IDE
-  .vscode/
-  .idea/
+# IDE
+.vscode/
+.idea/
 
-  # Misc
-  .DS_Store
-  Thumbs.db
+# Misc
+.DS_Store
+Thumbs.db

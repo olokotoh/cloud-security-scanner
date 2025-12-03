@@ -16,6 +16,7 @@ app = Flask(__name__)
 
 # VULNERABILITY 1: Hardcoded secret key
 app.secret_key = "super_secret_key_123"
+API_KEY = 'fndjdjsjc8g8g8shnsnsnendnndndneskwkkS'
 
 # VULNERABILITY 2: Debug mode enabled
 app.config['DEBUG'] = True

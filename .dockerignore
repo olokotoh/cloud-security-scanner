@@ -5,10 +5,10 @@
 .git
 
 # VULNERABILITY: Not ignoring sensitive files like:
-# .env
-# *.pem
-# *.key
-# *.credentials
-# secrets/
-# terraform.tfstate
-# *.tfvars
+.env
+*.pem
+*.key
+*.credentials
+secrets/
+terraform.tfstate
+*.tfvars

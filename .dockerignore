@@ -1,14 +1,42 @@
-# Vulnerable .dockerignore configuration
-# WARNING: This file intentionally fails to ignore sensitive files
-
-# Only ignoring git directory
+#git
 .git
+.gitignore
+.gitattributes
 
-# VULNERABILITY: Not ignoring sensitive files like:
-# .env
-# *.pem
-# *.key
-# *.credentials
-# secrets/
-# terraform.tfstate
-# *.tfvars
+# CI/CD
+.github/
+
+# Documentation
+*.md
+README.md
+LICENSE
+
+# Development
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Terraform
+terraform/
+*.tf
+*.tfvars
+*.tfstate
+
+# Tests
+tests/
+__pycache__/
+*.pyc
+
+# Security
+security-reports/
+.secrets.baseline
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+Thumbs.db

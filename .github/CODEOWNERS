@@ -1,0 +1,6 @@
+# Repository ownership
+* @olokotoh
+
+  # Security-sensitive files
+.github/workflows/* @olokotoh
+terraform/* @olokotoh

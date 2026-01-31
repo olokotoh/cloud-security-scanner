@@ -1,7 +1,7 @@
 # Vulnerable Flask Application Dependencies
 # WARNING: Using outdated/vulnerable versions for educational purposes
 
-Flask==2.0.1
+Flask==2.2.5
 Werkzeug==3.1.5
 
 # Note: These versions may have known vulnerabilities
